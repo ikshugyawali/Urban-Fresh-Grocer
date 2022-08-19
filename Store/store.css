@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+/* logo*/
+.header-logo {
+	display: inline-block;
+	margin-right: 15px;
+  }
+  
+  .header-logo .logo>img {
+	width: 100px;
+	max-height: 100px;
+  }
+/* search*/
+.searchbar{
+ display: inline-block;
+ width: 50%;
+ padding: 20px 0px;
+ margin: 0px 100px;
+
+}
+  body{
+    background-color: rgb(249, 249, 250);
+    }
+#table{
+    text-align: center;
+}
+    
+
+
+
+.button{
+  background-color: #147517; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  
+  cursor: pointer;
+}
+.boxed {
+  border: 1px solid none ;
+  background-color: #F2F2F2;
+  width: 70%;
+}
+.card button {
+  float: right;
+  position: relative;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  background-color: #168E16;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-size: 15px;
+  top: -40px;
+  margin-right: 100px;
+
+
+}
+
+.card button:hover {
+  background-color: green;
+  color: white;
+  opacity: 10;
+  
+}
+
+
+/* -- quantity box -- */
+
+.quantity {
+    display: contents; }
+   
+
+   .quantity .input-text.qty {
+    width: 35px;
+    height: 29px;
+    padding: 0px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+   }
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor:pointer;}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+
+
+  form.search input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: none;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+  }
+  form.search button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #168D15;
+	color: white;
+	font-size: 17px;
+	border: none;
+	border-left: none;
+	cursor: pointer;
+	opacity: 0.8;
+  }
+  
+  
+  form.search button:hover {
+	opacity: 1;
+  }
+  
+  form.search::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+/* Account*/
+
+.header-btns>li {
+	display: inline-block;
+	vertical-align: sub;
+	padding: 20px 0px;
+  }
+  
+  .header-btns>li+li {
+	margin-left: 15px;
+  }
+  
+  .header-btns>li .header-btns-icon {
+	position: relative;
+	float: left;
+	margin-right: 15px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #168D15;
+	border: 1px solid #DADADA;
+  }
+  /*Cart header*/
+  
+  .header-cart .header-btns-icon .qty {
+	position: absolute;
+	right: -9px;
+	top: -9px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 10px;
+	background: #DCDF2C;
+	color: #000;
+	border-radius: 50%;
+  }
+.boxed{
+	margin-top: -230px;
+	margin-left: 380px;
+	width: 20%;
+
+}
+.sci-trader
+	{
+		margin-top: 100px;
+		display: flex;
+
+	}
+	.sci-trader li
+	{
+		list-style: none;
+	}
+
+	.sci-trader li a 
+	{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		background: #222;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 10px;
+		text-decoration: none;
+		border-radius: 4px;
+		margin-top: -100px;
+		
+
+
+	}
+
+	.sci-trader li a:hover
+	{
+		background: #D49B09;
+	}
+
+	.sci-trader li a .fa
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+
+
+  
+/*footer*/
+  footer {
+	  position: relative;
+	  left: 0;
+	  bottom: 0;
+	  height: auto;
+	  padding: 50px 100px;
+	  background: #2E2C2C;
+	  display: flex;
+	  justify-content: space-between;
+	  flex-wrap: wrap;
+	  margin-top: 20px;
+	}
+
+	footer .container
+	{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
+	footer.container .sec
+	{
+		margin-right: 30px;
+	}
+
+	footer .container .sec.aboutus
+	{
+		width:  26%;
+	}
+
+	footer .container h2
+	{
+		position: relative;
+		color:  #fff;
+		font-weight: 500;
+		margin-bottom:  15px;
+	}
+
+	footer .container  h2:before
+	{
+		content: '';
+		position: absolute;
+		bottom: -5px;
+		left: 0;
+		width: 50px;
+		height: 2px;
+		background: #D49B09;
+	}
+
+	footer p
+	{
+		color: #999;
+	}
+	.sci
+	{
+		margin-top: 100px;
+		display: flex;
+
+	}
+	.sci li
+	{
+		list-style: none;
+	}
+
+	.sci li a 
+	{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		background: #222;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 10px;
+		text-decoration: none;
+		border-radius: 4px;
+
+	}
+
+	.sci li a:hover
+	{
+		background: #D49B09;
+	}
+
+	.sci li a .fa
+	{
+		color: #fff;
+		font-size: 20px;
+	}
+	
+
+	.quickLinks
+	{
+		position: relative;
+		width: 25%;
+	}
+
+	.quickLinks ul li 
+	{
+		list-style: none;
+	}
+
+	.quickLinks ul li a
+	{
+		color: #999;
+		text-decoration: none;
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+
+	.quickLinks ul li a:hover
+	{
+		color: #fff;
+	}
+
+	.contact .info
+	{
+		position: relative;
+	}
+
+	.contact .info li
+	{
+		display: flex;
+		margin-bottom: 16px;
+
+	}
+
+	.contact .info li span:nth-child(1)
+	{
+		color: #fff;
+		font-size: 20px;
+		margin-right: 10px;
+	}
+
+	.contact .info li span
+	{
+		color: #999;
+	}
+
+	.contact .info li a
+	{
+		color: #999;
+		text-decoration: none;
+	}
+	.contact .info li a:hover
+	{
+		color: #fff;
+	}
+
+	.copyrightText
+	{
+		width: 100%;
+		background-color: #DCDF2C;
+		padding: 8px 100px;
+		text-align: center;
+		color: black;
+	}

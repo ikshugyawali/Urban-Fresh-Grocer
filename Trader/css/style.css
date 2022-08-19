@@ -1,0 +1,77 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#EFEBEB;
+	overflow: hidden;
+	font-family: system-ui;
+}
+.clearfix{
+	clear: both;
+}
+.logo{
+	margin: 0px;
+	margin-left: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #DCDF2C;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+.sidenav a {
+  padding: 5px 10px 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: black;
+  background-color:white;
+}
+.sidenav{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 300px;
+}
+
+.head{
+	padding:20px;
+  background-color: #DCDF2C;
+}
+.col-div-6{
+	width: 50%;
+	float: left;
+
+
+}
+.box{
+	width: 85%;
+	height: 100px;
+	background-color: #C4C4C4;
+	margin-left: 10px;
+	padding:10px;
+}
+.content-box{
+	background-color: white;
+  box-shadow: 5px 5px #E5E5E5;
+  height: 650px;
+  width: 90%;
+  margin-top: -10px;
+}

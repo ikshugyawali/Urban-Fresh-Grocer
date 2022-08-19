@@ -1,0 +1,121 @@
+
+  a {
+    color: #30323A;
+    -webkit-transition: 0.3s color;
+    transition: 0.3s color;
+  }
+  
+  a:hover, a:focus {
+    color: #168D15;
+    text-decoration: none;
+    outline: none;
+  }
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+  }
+  
+  hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-color: #DADADA;
+  }
+  
+  /*=========================================================
+      03 -> NAVIGATION
+  ===========================================================*/
+  
+  #navigation {
+    background-color: #DEDF2C;
+  }
+  
+  #navigation .container {
+    position: relative;
+  }
+  
+  /*----------------------------*\
+      Category nav
+  \*----------------------------*/
+  
+  .category-nav {
+    float: left;
+    width: 270px;
+  }
+  
+  .category-nav .category-header {
+    padding: 15px;
+    display: block;
+    text-transform: uppercase;
+    background: #2D2B2C;
+    color: #FFF;
+    font-weight: 700;
+  }
+  
+  .category-nav .category-header>i {
+    float: right;
+    line-height: 20px;
+  }
+  
+  .category-nav .category-list {
+    position: absolute;
+    width: 270px;
+    background-color: #FFF;
+    border-left: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    z-index: 50;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  .category-nav .category-list .g{
+    background-color: #EFEBEA;
+  }
+  
+  .category-nav.show-on-click .category-list {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(0px, 15px);
+    -ms-transform: translate(0px, 15px);
+    transform: translate(0px, 15px);
+  }
+  
+  .category-nav.show-on-click .category-list.open {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  
+  .category-nav .category-list>li>a {
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+  }
+  
+  /*----------------------------*\
+      Menu nav
+  \*----------------------------*/
+  
+  .menu-nav .menu-header {
+    display: none;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .menu-nav .menu-list>li {
+    float: left;
+  }
+  
+  .menu-nav .menu-list>li>a {
+    display: block;
+    padding: 14px 192px;
+    color: #000;
+    text-transform: uppercase;
+  }
+  
+  .menu-nav .menu-list>li>a:hover, .menu-nav .menu-list>li>a:focus, .menu-nav .menu-list>li.dropdown.open>a {
+    color: #168D15;
+  }
